@@ -11,7 +11,9 @@
                  [environ "0.5.0"]
                  [im.chit/cronj "1.0.1"]
                  [noir-exception "0.2.2"]
-                 [com.ashafa/clutch "0.4.0-RC1"]]
+                 [com.ashafa/clutch "0.4.0-RC1"]
+                 [com.cemerick/friend "0.2.1"]
+                 ]
 
   :repl-options {:init-ns blog.repl}
   :jvm-opts ["-server"]
